@@ -1,0 +1,394 @@
+/* 
+* @Author: Marte
+* @Date:   2015-10-29 14:38:39
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-11-15 09:01:22
+*/
+/*********通用样式*********/
+
+body, header, section, footer, nav, #banner {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "微软雅黑", "Aril", "Microsoft yahei";
+  font-size: 12px;
+}
+
+ul, li, dl, dt, dd{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+p,h1,h2,h3,h4,h5,h6{
+  margin:0;padding:0;
+}
+a {
+  color:#333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EA6200;
+}
+
+section > header {
+  text-align: center;
+  padding: 30px 0 50px 0;
+}
+
+section > header > h2 {
+  margin-bottom: 12px;
+  font-size: 24px;
+}
+body{
+}
+/***********追加样式*************/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.upflow:before {
+  content: "";
+  display: table;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  border-left: 3px solid #92C423;
+}
+
+/**************头部*************/
+.ncontainer {
+  height: 60px;
+  width: 85%;
+  margin: 0 auto;
+}
+#bannerpaging {
+  height: 400px;
+  background: url(../images/slide1_bg.jpg) center center;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.7) inset;
+}
+
+.bcontainer {
+  height: 100%;
+  background: url(../images/effect_2.png) repeat;
+}
+
+.titlep {
+  padding-top: 150px;
+  margin: 0 auto;
+  width: 80%;
+
+}
+.nav-moblie {
+  width: 34px;
+  height: 40px;
+  margin:26px 0 0 30px;
+  cursor: pointer;
+  position:relative;
+  transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+  -webkit-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+  -ms-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+}
+
+.nav-moblie a {
+  background-color: #333;
+  display: block;
+  height: 4px;
+  width: 100%;
+  transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+  -webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+  -ms-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+}
+
+.nav-moblie a:after, .nav-moblie a:before {
+  background-color: #333;
+  display: block;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  content: '';
+  transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+  -webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+  -ms-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+}
+
+.nav-moblie a:before {
+  top: -10px;
+}
+
+.nav-moblie a:after {
+  top: 10px;
+}
+
+.titlep > a {
+  display: block;
+  width: 35px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.titlep > h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-size: 4.5em;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.titlep > p {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.center_bord {
+  display: block;
+  margin: 5px auto;
+  padding-bottom: 10px;
+  background: url(../images/center_bord.png) no-repeat;
+  height: 1px;
+  width: 312px;
+}
+nav {
+  height: 60px;
+  background: #19233C;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  position: fixed;
+  overflow: hidden;
+  background:transparent;
+}
+
+.pcontainer {
+  height: 60px;
+  width: 85%;
+  margin: 0 auto;
+  position:relative;
+}
+.pcontainer > .navpaging {
+  margin: 0 auto;
+  width: 40%;
+  z-index: 1000;
+}
+
+.pcontainer > ul > li {
+  display: inline-block;
+  width: 25%;
+}
+
+.pcontainer > ul > li > a {
+  display: inline-block;
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  text-align: center;
+  font-size: 14px;
+  color:#fff;
+  font-weight: 300;
+}
+.plogo > img {
+  height: 60px;
+}
+
+
+/*********主体**********/
+.section2 {
+  color: #333;
+  padding: 50px 0;
+  background: url(../images/slide6_bg.jpg) center center repeat;
+}
+
+.s2-container {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  padding: 40px 0;
+  font-size: 14px;
+}
+
+.s2-container > ul > li {
+  display: inline-block;
+  width: 25%;
+}
+
+.s2-container > ul > li > dl {
+  padding-bottom: 10%;
+}
+
+.s2-container > ul > li dt {
+  background: #EA6200;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.s2-container > ul > li h3 {
+  color: #333;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.s2-container > ul > li dd > p {
+  text-align: center;
+  font-size: 12px;
+  height: 24px;
+  white-space: nowrap;
+}
+
+.s2-container img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20%;
+  width: 60%;
+}
+
+/******底部******/
+.footer {
+  padding: 60px;
+  background: url(../images/footer_bg.jpg);
+  background-size: cover;
+  color: #fff;
+}
+.footer a{
+  color:#ddd;
+}
+.footer a:hover{
+  color:#EA6200;
+}
+.footer p{
+  text-align: center;
+}
+.footer > img {
+  display: block;
+  width: 150px;
+  margin: 20px auto;
+  margin-top: 60px;
+}
+
+.footer > ul > li {
+  margin: 10px auto;
+  color: #bbb;
+}
+
+.information {
+  width: 50%;
+  margin: 40px auto;
+}
+
+.information > ul {
+  width: 33%;
+  float: left;
+}
+
+.information > ul > li:first-child {
+  font-weight: bold;
+  font-size: 13px;
+  padding: 25px 0;
+  color: #fff;
+}
+.information > ul > li {
+  padding: 5px 0;
+  color: #aaa;
+}
+.footer > footer {
+  padding-top: 30px;
+  color: #999;
+  line-height: 18px;
+}
+/*****helpcenter****/
+.sectionHelp{
+  padding:50px;
+  background:url(../images/slide6_bg.jpg);
+}
+.hlist{
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.hlist>li{
+  width:150px;
+  background:#fff;
+  margin-bottom: 5px;
+}
+.hlist>li>a{
+  display:block;
+  width:100%;height:50px;
+  line-height: 50px;
+  border:1px solid #e2a453;
+  font-size: 16px;
+}
+.hcontainer{
+  color:#333;
+  width:75%;
+  text-align: left;
+}
+.crumbs{
+  text-align: left;
+}
+.crumbs>li{
+  display:inline-block;
+}
+.crumbs>li>a{
+  color:#049fbb;
+}
+.hcontainer div h1,.hcontainer div h2{
+  margin:30px 0;
+}
+.hcontainer div p{
+  margin:10px 0;
+  font-size: 14px;
+  line-height: 23px;
+  text-indent: 2em;
+}
+.hcontainer div ul{
+  width:90%;
+  margin:0 auto;
+  border-bottom: 1px solid #666;
+text-align: left;
+}
+.hcontainer div ul>li{
+  display:inline-block;
+  line-height: 25px;
+  height:25px;
+  text-align: left;
+  font-size: 14px;
+}
+.hcontainer div ul>li:nth-child(1){
+  width:10%;
+}
+.hcontainer div ul>li:nth-child(2){
+  width:25%;
+}
+.hcontainer div ul>li:nth-child(3){
+  width:30%;
+}
+.hcontainer div ul>li:nth-child(4){
+  width:30%;
+}
+
+
+

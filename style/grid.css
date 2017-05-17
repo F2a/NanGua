@@ -1,0 +1,215 @@
+/* 
+* @Author: Marte
+* @Date:   2015-10-30 17:06:45
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-11-16 14:22:26
+*/
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+  .title{padding-top:25%;}
+  .ncontainer>.navtop{
+    width:45%;
+  }
+  .s1-container {
+    width: 75%;
+  }
+  .s2-container{
+    height: 552px;
+  }
+  .s3-container{
+    height: 886px;
+  }
+  .s2-container > ul>li{
+    width: 50%;
+  }
+  .s4-container > ul {
+    width: 90%;
+  }
+  .slidebox {
+    width: 600px;
+    height: 400px;
+  }
+  .slideblock {
+    width: 1800px;
+    left: -600px;
+  }
+  .slideblock > div {
+    width: 600px;
+  }
+  .slide1 > div {
+    width: 40%;
+    height: 100px;
+    background: #999;
+    margin: 20px 5%;
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (max-width: 766px) {
+  .title{padding-top:32%;}
+  .title>h1{font-size: 4.5em;}
+  .title>p{font-size: 2em;}
+  .ncontainer>.navbuttom{
+    width:100%;
+    display: none;
+    background:#ddd;
+    position:fixed;
+    top:60px;
+    left: 0;
+    overflow:hidden;
+  }
+  .pcontainer>.navpaging{
+    width:100%;
+    display: none;
+    position:fixed;
+    top:60px;
+    left: 0;
+    overflow:hidden;
+  }
+  .ncontainer>.navtop{
+    width:80%;
+  }
+  .ncontainer>.navbuttom>li,.pcontainer>.navpaging>li{
+    width:100%;
+    display:block;
+  }
+
+  .nav-moblie {
+    display: block;
+  }
+  .s1-container > ul {
+    width:100%;
+    display: block;
+  }
+  .s1-container  {
+    width:56%;
+    display: block;
+  }
+  .s1-container > ul>li>b{
+    left:50%;right: 50%;
+    margin-left: -67px;
+  }
+  .s1-container > ul:last-child b{
+    left:50%;
+  }
+  .s1-container > ul > li {
+    padding-left: 10%;
+  }
+  .s1-container > ul > li >p{
+    text-align: left;
+  }
+  .s1-container > ul:first-child > li >p{
+    text-align: left;
+    padding-left: 40px;
+  }
+  .s1-container > ul span {
+    left: 10%;
+  }
+  .s2-container{
+    width: 85%;
+    height: 552px;
+  }
+  .s3-container{
+    height: 886px;
+  }
+  .s2-container > ul>li{
+    width: 50%;
+  }
+  .s4-container {
+    width: 100%;
+  }
+  .s4-container > ul {
+    width: 100%;
+  }
+  .slidebox {
+    width: 400px;
+    height: 450px;
+  }
+  .slideblock {
+    width: 1200px;
+    left: -400px;
+  }
+  .slideblock > div {
+    width: 400px;
+  }
+  .slide1 > div {
+    width: 50%;
+    height: 100px;
+    background: #999;
+    margin: 20px auto;
+    display: block;
+  }
+  .slide3 img {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+  .information {
+    width: 80%;
+  }
+
+}
+
+
+@media screen and (max-width : 479px) { 
+  body{font-size: 10px;}
+  .title{padding-top:50%;}
+  .s1-container  {
+    width:100%;
+  }
+  .s1-container > ul > li >p{
+    padding-right: 0;
+    text-align: left;
+    white-space: normal;
+  }
+  .s2-container{
+    width: 85%;
+    height: 1014px;
+  }
+  .s3-container{
+    height: 1704px;
+  }
+  .s2-container > ul>li{
+    width: 100%;
+  }
+  .s4-container > ul> li {
+    margin: 0 6%;
+    height: 60px;
+  }
+  .slidebox {
+    width: 350px;
+    height: 450px;
+    margin-top:40px ;
+  }
+  .slideblock {
+    width: 1050px;
+    left: -350px;
+  }
+  .slideblock > div {
+    width: 350px;
+  }
+  .slide1 > div {
+    width: 50%;
+    height: 100px;
+    background: #999;
+    margin: 20px auto;
+    display: block;
+  }
+  .slide3 img {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+  }
+  .slide2 p {
+    margin: 10px;
+    margin: 0 auto;
+  }
+  .phone{
+    margin-right:90px ;
+  }
+  .information {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+}
